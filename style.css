@@ -9,8 +9,11 @@ body{
     color: #fff;
     background: url(img/Oval\ Copy.png), url(img/Oval\ Copy\ 5.png),url(img/Oval.png), #19191B;
     background-size: 380px, 100px, 380px, 100%;
-    background-position: right 220px top 300px, left 600px,right 220px top 250px;
+    background-position: right 240px top 300px, left 600px,right 240px top 250px;
     background-repeat: no-repeat;
+}
+.center{
+    text-align: center;
 }
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -28,7 +31,7 @@ a{
     color: #fff;
 }
 .container{
-    padding: 0 245px;
+    padding: 0 200px;
     margin: 0 auto;
     width: 1360px;
     
@@ -91,7 +94,9 @@ a{
 .hero-area-sign-up input,label, select, a{
     display: block;
 }
-
+.hero-area-sign-up input,label, select, a:active{
+    outline: none;
+}
 .hero-area-sign-up input{
     width: 100%;
     border: 1px solid #dedede;
@@ -196,9 +201,9 @@ hr{
     left: -10%;
     width: 250px;
     height: 250px;
-    border: 1px solid #5454D4;
     border-radius: 50%;
     background: #5454D4;
+    background: linear-gradient(0deg, rgba(18, 18, 61) 0%, rgba(84, 84, 212) 100%);
     opacity: 0.7;
 
 }
@@ -273,9 +278,10 @@ hr{
     left: 40%;
     width: 250px;
     height: 250px;
-    border: 1px solid #FEDC5A;
     border-radius: 50%;
     background: #FEDC5A;
+    background: linear-gradient(0deg,rgba(102, 88, 35) 0%, rgba(254, 220, 90) 100%);
+
     opacity: 0.5;
 
 }
@@ -300,6 +306,93 @@ hr{
     margin-top: 20px;
 }
 /* ===================================================== */
+
+/* FQA */
+
+.fqa-title{
+    text-align: center;
+    margin-top: 220px;
+}
+.fqa-title h1{
+    font-size: 50px;
+}
+.fqa-title p{
+    font-size: 18px;
+    margin: 20px 0 40px 0;
+}
+.fqa-items{
+    justify-content: space-between;
+    align-items: center;
+}
+.fqa-item{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 49.5%;
+}
+
+.fqa-item h4{
+    font-size: 20px;
+    padding: 25px 0;
+}
+.fqa-item p{
+    line-height: 25px;
+}
+.fqa-link{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 18px;
+    text-align: center;
+}
+.fqa-link a{
+    color: #F04037;
+    padding: 0 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1E1E20;
+    background: url("img/Oval\ Copy.png") no-repeat, url("img/Oval\ Copy\ 5\ \(1\).png") no-repeat, #1E1E20;
+    background-size: 400px, 200px;
+    background-position: right -100px top -30px, left 290px;
+    
+}
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+    z-index: 1;
+}
+.footer-header h1{
+    width: 50%;
+    font-size: 45px;
+}
+.footer{
+    background-color: #19191B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px 0;
+    padding-top: 30px;
+}
+.footer-links h3{
+    font-size: 40px;
+}
+.footer-links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 15   px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

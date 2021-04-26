@@ -1,2 +1,2 @@
 # Omega-3
-WEbsite Url: https://omegapage-3.netlify.app/
+https://omega-page3.netlify.app
